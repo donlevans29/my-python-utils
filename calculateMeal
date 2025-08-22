@@ -1,0 +1,7 @@
+def calculate_Total(meal,tax_rate, tip_rate):
+    total_tip = meal * tip_rate
+    total_tax = meal * tax_rate
+    total_cost = meal + total_tip + total_tax
+    return total_cost
+
+print(calculate_Total(50,.07,.20))
